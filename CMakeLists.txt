@@ -24,13 +24,12 @@ set(SOURCE
     "DCPT_X509Certificate_Creation.h"
     "DCPT_SingletonDB.h"
     "logs.h"
-    "sqlite3.h"
     "Device_Tool.def"
     "DCPT_CSR_Creation.cpp"
     "DCPT_EntryPoint.cpp"
     "DCPT_X509Certificate_Creation.cpp"
     "DCPT_SingletonDB.cpp"
-    "sqlite3.c"
+    
   )
 
 add_library(Device_Tool SHARED ${SOURCE})
